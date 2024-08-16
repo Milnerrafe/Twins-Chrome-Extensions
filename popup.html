@@ -1,86 +1,32 @@
-<html>
+<!doctype html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Twins</title>
-        <script src="https://flowlab.io/game/embed/javascripts/jquery-1.8.3.min.js"></script>
-        <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.2.js"></script>
-        <script src="https://flowlab.io/game/embed/javascripts/rtc-pubnub.js"></script>
-        <script src="https://flowlab.io/game/embed/javascripts/rtc-xirsys.js"></script>
-        <script src="https://flowlab.io/game/embed/javascripts/flowAudio.js"></script>
-        <meta
-            id="viewport"
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <script
-            type="text/javascript"
-            src="https://flowlab.io/game/embed/html5/bin/lib/howler.min.js"
-        ></script>
-        <script
-            type="text/javascript"
-            src="https://flowlab.io/game/embed/html5/bin/lib/pako.min.js"
-        ></script>
-        <script
-            type="text/javascript"
-            src="https://flowlab.io/game/embed/html5/bin/lib/FileSaver.min.js"
-        ></script>
-
-        <script
-            type="text/javascript"
-            src="https://releases.flowlab.io/4757.js"
-        ></script>
-        <script src="/sc1.js"></script>
         <style>
-            html,
             body {
                 margin: 0;
                 padding: 0;
-                height: 100%;
+                overflow: hidden;
             }
-            #openfl-content {
-                background: #000000;
-                width: 100%;
-                height: 100%;
-            }
-            html,
-            body {
-                margin: 0;
-            }
-            #builder {
-                outline: none;
+            iframe {
                 width: 288px;
                 height: 448px;
-            }
-            .center {
-                margin: auto;
-                text-align: center;
-            }
-            #link {
-                font-family: Verdana, Helvetica, Sans-Serif;
-                font-size: 9px;
-                color: #999;
-            }
-            #message {
-                font-family: Verdana, Helvetica, Sans-Serif;
-                font-size: 16px;
-                color: #999;
+                border: none;
             }
         </style>
     </head>
     <body>
-        <div id="game" class="center">
-            <div
-                id="builder"
-                oncontextmenu="return false;"
-                class="center"
-            ></div>
-            <div id="link">
-                Built with Flowlab, the
-                <a target="_blank" href="http://flowlab.io"
-                    >online game maker.</a
-                >
-            </div>
-        </div>
-        <script src="/sc2.js"></script>
+        <script src="popup.js"></script>
+        <iframe
+            width="288"
+            height="448"
+            frameborder="5"
+            scrolling="no"
+            src="https://flowlab.io/game/embed/2599888"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
     </body>
 </html>
